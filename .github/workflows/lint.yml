@@ -19,6 +19,12 @@ jobs:
           profile: minimal
           components: clippy, rustfmt
           override: true
+<<<<<<< HEAD
       - name: Run clippy
         run: make lint
   
+=======
+          name: linting
+          run: make lint
+
+>>>>>>> c33c6e0 (add toml file)
